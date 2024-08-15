@@ -40,8 +40,17 @@ export const secret = [
     `<pre>
     You have to find the password first, if you have found it then continue</pre>`];
 
-export const history = [
+
+export let history = [];
+
+export let time = [];
+
+export const visit = [
     `<pre>
-    command usage history will appear here</pre>`];
+    Opening medium blog ...</pre>`];
+
+export const email = [
+    `<pre>
+    Go to gmail...</pre>`];
 
     
