@@ -12,9 +12,6 @@ body {
     margin: 0;
     padding: 20px;
     height: 100vh;
-    display: flex;
-    align-items: start;
-    justify-content: start;
 }
 
 .terminal {

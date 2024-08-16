@@ -1,4 +1,4 @@
-import { help, whoami, blog, projects, social, secret, email, history, time, visit } from './commands.js';
+import { help, whoami, blog, projects, social, secret, email, history, time, visit} from './commands.js';
 
 // Fungsi untuk menambahkan event listener ke input
 function addInputEventListener(inputElement) {
@@ -87,6 +87,9 @@ function handleCommand(command, outputDiv) {
         case 'history':
             result = 'history';
             break;
+        case 'banner':
+            result = banner;
+            break;
         case 'email':
            const resultE = document.createElement('div');
            resultE.innerHTML = email;
@@ -102,7 +105,6 @@ function handleCommand(command, outputDiv) {
             resultV.style.marginBottom= '10px';
             outputDiv.appendChild(resultV);
             window.location.href = 'mailto:ferdynandergypramudani11@gmail.com';
-
             return;  
         default:
             result = `Command not found: ${command}`;
@@ -153,5 +155,5 @@ function handleCommand(command, outputDiv) {
 // kurang email
 // typewriter agar output yang ditampilkan lebih pelan
 // caret, buat custom caret (lebih lebar) yang selalu mengikuti gerak caret pada element input
-
+// Banner masih rewel belum bisa disimpan apalagi dirender
 // otw bikin banner
