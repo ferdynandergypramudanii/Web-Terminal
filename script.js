@@ -1,4 +1,6 @@
-import { help, whoami, blog, projects, social, secret, email, history, time, visit} from './commands.js';
+import { help, whoami, blog, projects, social, secret, email, history, time, visit, banner} from './commands.js';
+
+const outputDiv = document.querySelector('.output');
 
 // Fungsi untuk menambahkan event listener ke input
 function addInputEventListener(inputElement) {
@@ -9,7 +11,7 @@ function addInputEventListener(inputElement) {
 function handleInput(e) {
     if (e.key === 'Enter') {
         const inputText = this.value.trim();
-        const outputDiv = document.querySelector('.output');
+        
 
         // Menambahkan perintah yang beginningdimasukkan ke output
         const commandDiv = document.createElement('div');
@@ -18,7 +20,7 @@ function handleInput(e) {
         outputDiv.appendChild(commandDiv);
 
         // Menambahkan output berdasarkan perintah
-        handleCommand(inputText, outputDiv);
+        handleCommand(inputText);
 
         // Menghapus input yang sekarang
         this.value = '';
@@ -54,8 +56,22 @@ document.addEventListener('DOMContentLoaded', () => {
     addInputEventListener(initialInput); 
 });
 
+
+function displayBanner() {
+    const pre = document.createElement("pre");
+    pre.textContent = '';
+    banner.forEach((line) => {
+        pre.innerHTML += line + "\n";
+    });
+    pre.style.marginTop= '10px';
+    pre.style.marginBottom= '10px';
+    outputDiv.appendChild(pre);
+}
+
+displayBanner();
+
 // Fungsi untuk menangani perintah yang dimasukkan
-function handleCommand(command, outputDiv) {
+function handleCommand(command) {
     let result;
     let  result2;
     const now = new Date();
@@ -87,9 +103,6 @@ function handleCommand(command, outputDiv) {
         case 'history':
             result = 'history';
             break;
-        case 'banner':
-            result = banner;
-            break;
         case 'email':
            const resultE = document.createElement('div');
            resultE.innerHTML = email;
@@ -105,7 +118,18 @@ function handleCommand(command, outputDiv) {
             resultV.style.marginBottom= '10px';
             outputDiv.appendChild(resultV);
             window.location.href = 'mailto:ferdynandergypramudani11@gmail.com';
-            return;  
+            return;
+        case 'banner':
+            //const pre = document.createElement("pre");
+            //pre.textContent = '';
+            //banner.forEach((line) => {
+              //  pre.innerHTML += line + "\n";
+            //});
+            //pre.style.marginTop= '10px';
+            //pre.style.marginBottom= '10px';
+            displayBanner();
+            //outputDiv.appendChild(pre);
+            return;
         default:
             result = `Command not found: ${command}`;
     }

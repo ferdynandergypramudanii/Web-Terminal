@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: large;
+    font-size: 19px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
@@ -10,16 +10,15 @@ body {
     background-color: #fff;
     color: #000000;
     margin: 0;
-    padding: 20px;
+    padding: 0 20px;
     height: 100vh;
 }
 
 .terminal {
     background-color: #fff;
-    padding: 20px;
+    padding: 0 20px;
     width: 1500px;
     max-width: 100%;
-    border: 2px solid #000000;
 }
 
 .input-line {

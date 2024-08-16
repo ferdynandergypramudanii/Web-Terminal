@@ -236,3 +236,9 @@ _   (    __    ~->>
          / ::::::::::::: \    |_|_|                 \  js      \    \\                                   Ery         dS"qML 
         (_________________)   |   |                  \__________\    \\                                   FEr)MMMMMMM(ErP0      
                               '._.'                   ()__________)   ``
+
+
+
+"                                                          ",
+    "Welcome to my interactive web terminal",
+    "For a list of available commands, type 'help'",
