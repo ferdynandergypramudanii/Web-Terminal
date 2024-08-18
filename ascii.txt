@@ -242,3 +242,19 @@ _   (    __    ~->>
 "                                                          ",
     "Welcome to my interactive web terminal",
     "For a list of available commands, type 'help'",
+
+
+
+                               _________ 
+             _________       .|_________|
+            / ======= \    .' |         |
+           / __________\   |  |  === o  |
+          | ___________ |  |  |   ___   |
+          | | I like  | |  |  |  |___|  |
+          | |   this  | |  |  |         |        
+
+
+
+
+
+
