@@ -1,5 +1,4 @@
-export const help = 
-    `<pre>
+export const help = `<pre>
     whoami        explain who i am 
     blog          read medium blogs
     projects      view coding projects
@@ -10,16 +9,14 @@ export const help =
     secret        find easter egg
     banner        display the header</pre>`;
 
-export const whoami = 
-    `<pre>
+export const whoami = `<pre>
     Hi, I'm Ferdynand Ergy Pramudani
     usually called Ergy
 
-    I'm a Full Stack Web Developer and cybersecurity enthusiast, 
+    I'm a road to Full Stack Javascript Developer and web security learner, 
     who builds engaging websites like this one ..........</pre>`;
 
-export const blog = 
-    `<pre>
+export const blog = `<pre>
     https://medium.com/@ferdynandergypramudani11
 
     On my blog, I currently share various algorithms that I have learned using the C++ programming language 
@@ -27,71 +24,60 @@ export const blog =
 
     type 'visit' to visit my blog directly</pre>`;
 
-
-export const projects = 
-    `<pre>
+export const projects = `<pre>
     the project is on github</pre>`;
 
-export const social = 
-    `<pre>
+export const social = `<pre>
     youtube       youtube/soon
     linkedin      instagram/soon
     github        github/soon</pre>`;
 
-export const secret = 
-    `<pre>
+export const secret = `<pre>
     You have to find the password first, if you have found it then continue</pre>`;
-
 
 export let history = [];
 
 export let time = [];
 
-export const visit = 
-    `<pre>
+export const visit = `<pre>
     Opening medium blog ...</pre>`;
 
-export const email = 
-    `<pre>
+export const email = `<pre>
     Go to gmail...</pre>`;
 
-
-
 export const banner = [
-    `                          _________`,
-    `        _________       .|_________|                                                                    dGGGGMMb`,
-    `       / ======= \\    .' |         |        _____                                                      @p~qp~~qMb    ,--------------.`,
-    `      / __________\\   |  |  === o  |       |  ___|__ _ __ ___ _ __ _ __  _ __ __ _ _ __ ___            M|@||@) M|    |   Must try   |`,
-    `     | ___________ |  |  |   ___   |       | |_ / _ \\ '__/ _ \\ '__| '_ \\| '__/ _\` | '_ \` _ \\           @,----.JM|    ;..............'`,
-    `     | | I like  | |  |  |  |___|  |       |  _|  __/ | |  __/ |  | |_) | | | (_| | | | | | |         JS^\\__/  qKL  / `,
-    `     | |   this  | |  |  |         |       |_|  \\___|_|  \\___|_|  | .__/|_|  \\__,_|_| |_| |_|        dZP        qKRb`,
-    `     | |_________| |  |  |   ===   |                              |_|          ©2024                dZP          qKKb `,
-    `     \\=____________/  |  |         |          __________                                           fZP            SMMb`,
-    `      |_--_| |_--_|   '._|_________|         ()_________)                                          HZM            MMMM`,
-    `     / ::::::::::o \\      _ _                 \\ html css \\                                         FqM            MMMM`,
-    `    / ::::::::::::: \\    |_|_|                 \\  js      \\                                         Ery         dSUQML`,
-    `   (_________________)   |   |                  \\__________\\                                         FEr)MMMMMMM(ErP0`,
-    `                         '._.'                   ()_________)`,
-    `                                                                     `,
-    `    Welcome to my interactive web terminal`,
-    `    For a list of available commands, type 'help'`,
+  `                          _________`,
+  `        _________       .|_________|                                                                    dGGGGMMb`,
+  `       / ======= \\    .' |         |        _____                                                      @p~qp~~qMb    ,--------------.`,
+  `      / __________\\   |  |  === o  |       |  ___|__ _ __ ___ _ __ _ __  _ __ __ _ _ __ ___            M|@||@) M|    |   Must try   |`,
+  `     | ___________ |  |  |   ___   |       | |_ / _ \\ '__/ _ \\ '__| '_ \\| '__/ _\` | '_ \` _ \\           @,----.JM|    ;..............'`,
+  `     | | I like  | |  |  |  |___|  |       |  _|  __/ | |  __/ |  | |_) | | | (_| | | | | | |         JS^\\__/  qKL  / `,
+  `     | |   this  | |  |  |         |       |_|  \\___|_|  \\___|_|  | .__/|_|  \\__,_|_| |_| |_|        dZP        qKRb`,
+  `     | |_________| |  |  |   ===   |                              |_|          ©2024                dZP          qKKb `,
+  `     \\=____________/  |  |         |          __________                                           fZP            SMMb`,
+  `      |_--_| |_--_|   '._|_________|         ()_________)                                          HZM            MMMM`,
+  `     / ::::::::::o \\      _ _                 \\ html css \\                                         FqM            MMMM`,
+  `    / ::::::::::::: \\    |_|_|                 \\  js      \\                                         Ery         dSUQML`,
+  `   (_________________)   |   |                  \\__________\\                                         FEr)MMMMMMM(ErP0`,
+  `                         '._.'                   ()_________)`,
+  `                                                                     `,
+  `    Welcome to my interactive web terminal`,
+  `    For a list of available commands, type 'help'`,
 ];
 
 export const bannerMiniScreen = [
-    `                               _________`,
-    `             _________       .|_________|`,
-    `            / ======= \\    .' |         |`,
-    `           / __________\\   |  |  === o  |`,
-    `          | ___________ |  |  |   ___   |`,
-    `          | |  ferer  | |  |  |  |___|  |`,
-    `          | |    pram | |  |  |         |`,
-    `          | |_________| |  |  |   ===   |`,
-    `          \\=____________/  |  |         |`,
-    `           |_--_| |_--_|   '._|_________|`,
-    `          / """"""""""" \\      _ _`,
-    `         / ::::::::::::: \\    |_|_|`,
-    `        (_________________)   |   |`,
-    `                              '._.'`,
-]
-
-                               
+  `                               _________`,
+  `             _________       .|_________|`,
+  `            / ======= \\    .' |         |`,
+  `           / __________\\   |  |  === o  |`,
+  `          | ___________ |  |  |   ___   |`,
+  `          | |  ferer  | |  |  |  |___|  |`,
+  `          | |    pram | |  |  |         |`,
+  `          | |_________| |  |  |   ===   |`,
+  `          \\=____________/  |  |         |`,
+  `           |_--_| |_--_|   '._|_________|`,
+  `          / """"""""""" \\      _ _`,
+  `         / ::::::::::::: \\    |_|_|`,
+  `        (_________________)   |   |`,
+  `                              '._.'`,
+];
